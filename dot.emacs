@@ -27,6 +27,10 @@
   (load (expand-file-name "haskell-mode-autoloads.el")))
 (add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
 
+(add-to-list 'load-path "~/.emacs.d/modules/purescript-mode/")
+(require 'purescript-mode-autoloads)
+(add-to-list 'Info-default-directory-list "~/.emacs.d/modules/purescript-mode/")
+
 ;(add-to-list 'load-path "~/.emacs.d/modules/evil")
 ;(require 'evil)
 ;(evil-mode 1)
