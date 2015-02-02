@@ -12,7 +12,7 @@
  ;; If there is more than one, they won't work right.
  )
 
-(load-theme 'wombat)
+(load-theme 'deeper-blue)
 
 (load "~/.emacs.d/modules/journal")
 
