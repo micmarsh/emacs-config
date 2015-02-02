@@ -31,6 +31,8 @@
 (require 'purescript-mode-autoloads)
 (add-to-list 'Info-default-directory-list "~/.emacs.d/modules/purescript-mode/")
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ;(add-to-list 'load-path "~/.emacs.d/modules/evil")
 ;(require 'evil)
 ;(evil-mode 1)
